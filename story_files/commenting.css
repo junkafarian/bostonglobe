@@ -1,0 +1,28 @@
+#comment-slider {
+    width:23%;
+    float: right;
+    height: 100%;
+    margin-left:1000px
+}
+
+#comment-slider section {
+    padding: 20px 10px;
+    background-color: #EEE;
+    border: 1px solid #CCC;
+    margin: 10px 0;
+    opacity: 0.5;
+    position: relative;
+}
+
+#comment-slider section.highlighted {
+    opacity: 1;
+}
+
+#comment-slider header {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#comment-slider textarea {
+    width: 100%;
+}
